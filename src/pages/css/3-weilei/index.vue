@@ -1,0 +1,192 @@
+<template>
+    <div class="weilei">
+        <h2><mark>伪类</mark>：</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td class="tdfirst">类型</td>
+                    <td>描述</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><mark>:link</mark></td>
+                    <td>表示一个普通的链接（未访问过的链接）
+                        ，超链接点击之前
+                        ，只能应用于超链接
+                    </td>
+                </tr>
+                <tr>
+                    <td><mark>:visited</mark></td>
+                    <td>链接被访问过之后
+                        ，只能应用于超链接
+                    </td>
+                </tr>
+                <tr>
+                    <td><mark>:hover</mark></td>
+                    <td>“悬停”：鼠标放到标签上的时候</td>
+                </tr>
+                <tr>
+                    <td><mark>:active</mark></td>
+                    <td>“激活”： 鼠标点击标签，但是不松手时</td>
+                </tr>
+                <tr>
+                    <td><mark>:focus</mark></td>
+                    <td>是某个标签获得焦点时的样式
+                        （比如某个输入框获得焦点）</td>
+                </tr>
+                <tr>
+                    <td><mark>::selection</mark></td>
+                    <td>表示内容被选中时的样式</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><mark>伪元素</mark>：</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td class="tdfirst">类型</td>
+                    <td>描述</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><mark>:first-letter</mark></td>
+                    <td>选中某块级元素第一行的第一个字母，并添加样式
+                        <br>并且文字所处的行之前没有其他内容
+                    </td>
+                </tr>
+                <tr>
+                    <td><mark>:first-line</mark></td>
+                    <td>在某块级元素的第一行应用样式
+                        <br>第一行的长度取决于很多因素，包括元素宽度，文档宽度和文本的文字大小
+                    </td>
+                </tr>
+                <tr>
+                    <td><mark>::before</mark></td>
+                    <td>创建一个伪元素
+                        <br>其将成为匹配选中的元素的第一个子元素。
+                        <br>常通过 content 属性来为一个元素添加修饰性的内容。
+                        <br>此元素默认为行内元素。
+                    </td>
+                </tr>
+                <tr>
+                    <td><mark>::after</mark></td>
+                    <td>用来创建一个伪元素
+                        <br>作为已选中元素的最后一个子元素
+                        <br>通常会配合content属性来为该元素添加装饰内容。
+                        <br>这个虚拟元素默认是行内元素
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><mark>结构伪类</mark>(css3)：</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td width="20%">类型</td>
+                    <td width='40%'>描述</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <mark>:first-child</mark>
+                    </td>
+                    <td>寻找父元素的第一个子元素，在所有的子元素中排序</td>
+                    <td rowspan="4">只能由子元素使用
+                        <br>例如：子元素名:first-child
+                        <br>有严格的位置关系，如果被选中位置的元素和指定的元素名不符合，则不生效
+                        <br>这个伪类对所有的子元素排序，选取对应的位置，所选元素要和对应位置的元素是同一类型才会生效
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <mark>:last-child</mark>
+                    </td>
+                    <td>寻找父元素的最后一个子元素，在所有的子元素中排序</td>
+                </tr>
+                <tr>
+                    <td>
+                        <mark>:nth-child(n)</mark>
+                    </td>
+                    <td>寻找父元素中的指定位置子元素，在所有的子元素中排序
+                        <br>例如：p:nth-child(3)
+                        <br>可以使用even，来找到偶数的子元素
+                        <br>可以使用odd，来找到奇数的子元素
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <mark>:last-nth-child(n)</mark>
+                    </td>
+                    <td>反向的:nth-child(n)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <mark>:first-of-type</mark>
+                    </td>
+                    <td>选择一个上级元素下的第一个同类子元素；</td>
+                    <td rowspan="4">这个伪类可以指定元素的类型
+                        <br>例如：子元素名称:first-of-type
+                        <br>对选中的子元素类型进行排序，然后选取对应的位置
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <mark>:last-of-type</mark>
+                    </td>
+                    <td>选择一个上级元素的最后一个同类子元素；</td>
+                </tr>
+                <tr>
+                    <td>
+                        <mark>:nth-of-type(n)</mark>
+                    </td>
+                    <td>寻找指定类型的第n个元素</td>
+                </tr>
+                <tr>
+                    <td>
+                        <mark>:nth-last-of-type(n)</mark>
+                    </td>
+                    <td>反向的:nth-of-type(n)</td>
+                </tr>
+                <tr>
+                    <td>
+                        <mark>:only-child</mark>
+                    </td>
+                    <td colspan="2">当父元素只有唯一一个子元素时，该子元素才会被选中</td>
+                </tr>
+                <tr>
+                    <td>
+                        <mark>:only-of-type </mark>
+                    </td>
+                    <td colspan="2">选择一个元素是它的上级元素的唯一一个相同类型的子元素；</td>
+                </tr>
+                <tr>
+                    <td>
+                        <mark>:empty</mark>
+                    </td>
+                    <td colspan="2">选择的元素里面没有任何内容
+                        ，子元素为空时才会被选中</td>
+                </tr>
+                <tr>
+                    <td>
+                        <mark>:not()</mark>
+                    </td>
+                    <td colspan="2">从一组元素中将符合要求的元素剔除出去
+                        <br>:not(选择器)
+                        <br>.abc:not(div)
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+</style>

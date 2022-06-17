@@ -1,0 +1,64 @@
+<template>
+    <div class="webstorage">
+        <h2><mark>webStorage</mark>：</h2>
+        <ul>
+            <li class="des">可以在本地存储用户的浏览数据</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <td>类型</td>
+                    <td>方法</td>
+                    <td>作用域</td>
+                    <td>数据有效期</td>
+                    <td>数据大小</td>
+                    <td>是否携带</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><mark>localStorage</mark></td>
+                    <td>
+                        setItem('key','value')
+                        <br>getItem('key')
+                        <br>removeItem('key')
+                        <br>clear()
+                        <br>key(index)
+                    </td>
+                    <td>在相同的协议、相同的主机名、相同的端口下，就能读取/修改到同一份localStorage数据</td>
+                    <td>始终有效，窗口或浏览器关闭也一直保存，本地存储，因此用作持久数据</td>
+                    <td>可以达到5M或更大</td>
+                    <td>仅在本地保存</td>
+                </tr>
+                <tr>
+                    <td><mark>sessionStorage</mark></td>
+                    <td>setItem('key','value')
+                        <br>getItem('key')
+                        <br>removeItem('key')
+                        <br>clear()
+                        <br>key(index)
+                    </td>
+                    <td>不能在不同的浏览器窗口中共享，即使是同一个页面</td>
+                    <td>临时保存同一窗口(或标签页)的数据，在关闭窗口或标签页之后将会删除这些数据</td>
+                    <td>可以达到5M或更大</td>
+                    <td>仅在本地保存</td>
+                </tr>
+                <tr>
+                    <td><mark>cookie</mark></td>
+                    <td>没有自己的方法</td>
+                    <td>在所有同源窗口中都是共享的，也就是说只要浏览器不关闭，数据仍然存在</td>
+                    <td>只在设置的cookie过期时间之前有效，即使窗口关闭或浏览器关闭</td>
+                    <td>cookie数据不能超过4K</td>
+                    <td>始终在同源的http请求中携带（即使不需要）</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+</style>

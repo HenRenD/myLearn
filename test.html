@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 200px;
+            height: 200px;
+            font-size: 20px;
+            color: red;
+            background-color: black;
+        }
+
+        div {
+            background-color: tomato;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="myDiv"></div>
+    <table>
+        <thead>
+            <tr>
+                <td width='15%'>方法</td>
+                <td width='30%'>描述</td>
+                <td>实例</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><mark class="marksec"></mark></td>
+                <td></td>
+                <td>
+                    <pre class="contentarea" v-highlight><code></code></pre>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <pre class="contentarea" v-highlight><code></code></pre>
+
+
+</body>
+<script>
+    let person = {
+        name: 'henren',
+        age: 20
+    }
+    let proxy = new Proxy(person, {
+       ownKeys(target){
+           return 
+       }
+    })
+</script>
+
+</html>

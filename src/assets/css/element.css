@@ -1,0 +1,40 @@
+/* 消息提示框 */
+.el-message {
+    width: 300px;
+    height: 60px;
+    background-color: #333 !important;
+    border: none !important;
+}
+.el-message p {
+    color: #ddd;
+    font-size: 16px;
+}
+/* 侧边折叠栏 */
+.el-menu {
+    border: none !important;
+    background-color: #181a1b !important;
+}
+.el-menu li {
+    background-color: transparent !important;
+}
+.el-menu li div {
+    background-color: transparent !important;
+}
+.el-menu-item,
+.el-submenu__title {
+   height: 40px !important;
+   line-height: 40px !important;
+   font-size: 14px !important;
+   font-weight: 530;
+   border-bottom: 1px solid #777 !important;
+}
+.el-menu-item:hover ,
+.el-submenu__title:hover{
+    background-color: #777 !important;
+}
+.is-active {
+    color: #daa520 !important;
+}
+.el-menu {
+    padding: 0 !important;
+}

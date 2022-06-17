@@ -1,0 +1,104 @@
+<template>
+    <div class="textareatag">
+        <h2><mark>textarea</mark>标签：</h2>
+        <ul>
+            <li class="des">定义一个多行的文本输入控件</li>
+        </ul>
+        <h2><mark>textarea</mark>实例：</h2>
+        <pre class="contentarea"><code>        &lt;textarea rows="10" cols="30">
+                    这是一个文本域
+            &lt;/textarea></code></pre>
+        <h2><mark>textarea</mark>浏览器支持：</h2>
+        <ul>
+            <li class="des">所有主流浏览器都支持 <mark class="marksec">textarea</mark> 标签</li>
+        </ul>
+        <h2><mark>textarea</mark>属性(H4)：</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td class="tdfirst">属性</td>
+                    <td>值</td>
+                    <td>描述</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><mark>cols</mark></td>
+                    <td>number,数字</td>
+                    <td>规定文本区域内可见的宽度</td>
+                </tr>
+                <tr>
+                    <td><mark>rows</mark></td>
+                    <td>number,数字</td>
+                    <td>规定文本区域内可见的行数</td>
+                </tr>
+                <tr>
+                    <td><mark>disabled</mark></td>
+                    <td>disabled</td>
+                    <td>禁用文本区域</td>
+                </tr>
+                <tr>
+                    <td><mark>name</mark></td>
+                    <td>text,字符串</td>
+                    <td>规定文本区域名称</td>
+                </tr>
+                <tr>
+                    <td><mark>readonly</mark></td>
+                    <td>readonly</td>
+                    <td>规定文本区域为只读</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><mark>textarea</mark>属性(H5新增)：</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td class="tdfirst">属性</td>
+                    <td>值</td>
+                    <td>描述</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><mark>autofocus</mark></td>
+                    <td>autofocus</td>
+                    <td>规定当页面加载时，文本区域自动获得焦点</td>
+                </tr>
+                <tr>
+                    <td><mark>form</mark></td>
+                    <td>表单id</td>
+                    <td>定义文本区域所属的一个或多个表单</td>
+                </tr>
+                <tr>
+                    <td><mark>maxlength</mark></td>
+                    <td>number,数字</td>
+                    <td>规定文本域允许的最大字符数</td>
+                </tr>
+                <tr>
+                    <td><mark>placeholder</mark></td>
+                    <td>text,文本</td>
+                    <td>预设一段文本，作为文本域的初始化提示</td>
+                </tr>
+                <tr>
+                    <td><mark>required</mark></td>
+                    <td>required</td>
+                    <td>规定文本域是必需的</td>
+                </tr>
+                <tr>
+                    <td><mark>wrap</mark></td>
+                    <td>hard
+                        <br>soft
+                    </td>
+                    <td>规定文本域内的换行方式</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+</style>

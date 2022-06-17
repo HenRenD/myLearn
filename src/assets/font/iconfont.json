@@ -1,0 +1,128 @@
+{
+  "id": "2929400",
+  "name": "myLearn",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1876328",
+      "name": "个人信息",
+      "font_class": "gerenxinxi1",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "6615485",
+      "name": "项目",
+      "font_class": "xiangmu1",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "12387169",
+      "name": "项目",
+      "font_class": "xiangmu",
+      "unicode": "e911",
+      "unicode_decimal": 59665
+    },
+    {
+      "icon_id": "5013",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "730810",
+      "name": "左",
+      "font_class": "icon-arrow-left4",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "730816",
+      "name": "右",
+      "font_class": "icon-arrow-right4",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "4937000",
+      "name": "github-fill",
+      "font_class": "github-fill",
+      "unicode": "e885",
+      "unicode_decimal": 59525
+    },
+    {
+      "icon_id": "5387733",
+      "name": "个人信息",
+      "font_class": "gerenxinxi",
+      "unicode": "eb45",
+      "unicode_decimal": 60229
+    },
+    {
+      "icon_id": "5387553",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "eafe",
+      "unicode_decimal": 60158
+    },
+    {
+      "icon_id": "5729491",
+      "name": "http-1",
+      "font_class": "http-",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "5916400",
+      "name": "CSS",
+      "font_class": "CSS",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "5916406",
+      "name": "HTML",
+      "font_class": "HTML",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "6117208",
+      "name": "ajax",
+      "font_class": "ajax",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "15378383",
+      "name": "git",
+      "font_class": "git",
+      "unicode": "eb9f",
+      "unicode_decimal": 60319
+    },
+    {
+      "icon_id": "16753022",
+      "name": "webpack",
+      "font_class": "webpack",
+      "unicode": "f536",
+      "unicode_decimal": 62774
+    },
+    {
+      "icon_id": "18327008",
+      "name": "JavaScript代码",
+      "font_class": "JavaScriptdaima",
+      "unicode": "e7bf",
+      "unicode_decimal": 59327
+    },
+    {
+      "icon_id": "19035892",
+      "name": "vue",
+      "font_class": "vue",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    }
+  ]
+}
